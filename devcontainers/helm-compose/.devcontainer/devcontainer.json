@@ -17,6 +17,7 @@
 		"vscode": {
 			"extensions": [
 				"golang.Go",
+				"shd101wyy.markdown-preview-enhanced",
 				"ms-vscode.makefile-tools",
 				"GitHub.copilot-nightly",
 				"GitHub.copilot-chat"
