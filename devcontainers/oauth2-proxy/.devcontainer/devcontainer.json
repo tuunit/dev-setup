@@ -26,5 +26,5 @@
 	},
 
 	"workspaceMount": "source=${localEnv:WORKSPACE_DIRECTORY},target=/workspace,type=bind",
-	"workspaceFolder": "/workspace"
+	"workspaceFolder": "/workspace/oauth2-proxy"
 }
