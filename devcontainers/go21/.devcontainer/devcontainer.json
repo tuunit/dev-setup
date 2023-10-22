@@ -1,5 +1,5 @@
 {
-	"name": "Go 1.19",
+	"name": "Go 1.21",
 
 	"build": {
 		"dockerfile": "../Dockerfile"
@@ -8,7 +8,12 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"golang.Go"
+				"golang.Go",
+				"vscodevim.vim",
+				"shd101wyy.markdown-preview-enhanced",
+				"ms-vscode.makefile-tools",
+				"GitHub.copilot-nightly",
+				"GitHub.copilot-chat"
 			]
 		}
 	},
