@@ -2,7 +2,7 @@
 	"name": "Vautnios",
 
 	"build": {
-		"dockerfile": "../Dockerfile"
+		"dockerfile": "./Dockerfile"
 	},
 
 	"features": {

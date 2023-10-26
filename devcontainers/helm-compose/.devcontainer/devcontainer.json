@@ -2,7 +2,7 @@
 	"name": "Helm Compose",
 
 	"build": {
-		"dockerfile": "../Dockerfile"
+		"dockerfile": "./Dockerfile"
 	},
 
 	"features": {

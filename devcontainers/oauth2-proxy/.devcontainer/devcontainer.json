@@ -2,7 +2,7 @@
 	"name": "OAuth2-Proxy",
 
 	"build": {
-		"dockerfile": "../Dockerfile"
+		"dockerfile": "./Dockerfile"
 	},
 
 	"features": {

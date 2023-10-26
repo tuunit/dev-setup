@@ -2,7 +2,7 @@
 	"name": "External DNS",
 
 	"build": {
-		"dockerfile": "../Dockerfile"
+		"dockerfile": "./Dockerfile"
 	},
 
 	"features": {
