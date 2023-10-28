@@ -29,5 +29,6 @@ export PATH=$PATH:/usr/local/go/bin:/home/tuunit/go/bin
 # Custom aliases
 alias vim="vim -p"
 alias code="code ."
+alias devcontainer="/usr/bin/code --folder-uri \$(python3 /workspace/dev-setup/make_devcontainer_folder_uri.py)"
 
 export WORKSPACE_DIRECTORY=/workspace
