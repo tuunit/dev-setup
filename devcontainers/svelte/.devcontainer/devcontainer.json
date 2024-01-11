@@ -1,0 +1,20 @@
+{
+	"name": "Svelte",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"configureZshAsDefaultShell": true
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"svelte.svelte-vscode",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode"
+			]
+		}
+	},
+	"workspaceMount": "source=${localEnv:WORKSPACE_DIRECTORY},target=/workspace,type=bind",
+	"workspaceFolder": "/workspace"
+}
