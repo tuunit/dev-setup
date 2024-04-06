@@ -1,29 +1,24 @@
 {
 	"name": "External DNS",
-
 	"build": {
 		"dockerfile": "./Dockerfile"
 	},
-
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {
 			"configureZshAsDefaultShell": true
 		},
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
 	},
-
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"golang.Go",
 				"vscodevim.vim",
 				"shd101wyy.markdown-preview-enhanced",
-				"ms-vscode.makefile-tools",
-				"GitHub.copilot"
+				"ms-vscode.makefile-tools"
 			]
 		}
 	},
-
 	"workspaceMount": "source=${localEnv:WORKSPACE_DIRECTORY},target=/workspace,type=bind",
 	"workspaceFolder": "/workspace"
 }

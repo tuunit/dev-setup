@@ -1,22 +1,18 @@
 {
 	"name": "Go 1.21",
-
 	"build": {
 		"dockerfile": "./Dockerfile"
 	},
-
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"golang.Go",
 				"vscodevim.vim",
 				"shd101wyy.markdown-preview-enhanced",
-				"ms-vscode.makefile-tools",
-				"GitHub.copilot"
+				"ms-vscode.makefile-tools"
 			]
 		}
 	},
-
 	"workspaceMount": "source=${localEnv:WORKSPACE_DIRECTORY},target=/workspace,type=bind",
 	"workspaceFolder": "/workspace"
 }

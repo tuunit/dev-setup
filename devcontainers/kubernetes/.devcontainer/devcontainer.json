@@ -17,8 +17,7 @@
 				"ms-kubernetes-tools.vscode-kubernetes-tools",
 				"Tim-Koehler.helm-intellisense",
 				"vscodevim.vim",
-				"shd101wyy.markdown-preview-enhanced",
-				"GitHub.copilot"
+				"shd101wyy.markdown-preview-enhanced"
 			]
 		}
 	},

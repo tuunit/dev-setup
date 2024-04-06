@@ -1,10 +1,8 @@
 {
 	"name": "OAuth2-Proxy",
-
 	"build": {
 		"dockerfile": "./Dockerfile"
 	},
-
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {
 			"configureZshAsDefaultShell": true
@@ -13,18 +11,15 @@
 		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
 		"ghcr.io/devcontainers/features/node:1": {}
 	},
-
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"golang.Go",
 				"vscodevim.vim",
-				"shd101wyy.markdown-preview-enhanced",
-				"GitHub.copilot"
+				"shd101wyy.markdown-preview-enhanced"
 			]
 		}
 	},
-
 	"workspaceMount": "source=${localEnv:WORKSPACE_DIRECTORY},target=/workspace,type=bind",
 	"workspaceFolder": "/workspace/oauth2-proxy"
 }
